@@ -47,6 +47,7 @@ In the modern financial landscape, the influx of loan applications poses a signi
 The dataset we're using here is from Kaggel (i.e. https://www.kaggle.com/datasets/architsharma01/loan-approval-prediction-dataset)
 
 Features of the Dataset
+
       FEATURE NAME                	  DESCRIPTION
 1.  loan_id			        :Unique Id of Loan
 2.  no_of_dependents 	          	:Number of Dependents of the Applicant
@@ -76,15 +77,11 @@ We have completed bivariate analysis and are now working on multivariate analysi
 
 # Observations (*As of now)
 
-->Income and Loan Dynamics:
-	Strong linear relationship between income and loan amount. Higher income individuals are more likely to obtain larger loans and possess valuable assets.
-->CIBIL Score and Loan Status:
-  CIBIL score plays a critical role in determining loan status, as evidenced by their strong positive correlation and covariance. A good CIBIL score increases the likelihood of a favorable loan status.
-->Asset Values:
-	Luxury and residential asset values are strongly associated with both income and loan amount. Applicants with higher incomes and larger loans tend to report higher asset values, indicating financial stability and creditworthiness.
+->Income and Loan Dynamics: Strong linear relationship between income and loan amount. Higher income individuals are more likely to obtain larger loans and possess valuable assets.
+->CIBIL Score and Loan Status: CIBIL score plays a critical role in determining loan status, as evidenced by their strong positive correlation and covariance. A good CIBIL score increases the likelihood of a favorable loan status.
+->Asset Values: Luxury and residential asset values are strongly associated with both income and loan amount. Applicants with higher incomes and larger loans tend to report higher asset values, indicating financial stability and creditworthiness.
   
-->Visual Patterns:
-	Pair plot confirms the linear relationships observed in the correlation matrix and highlights the distribution of data points. Clear trends in scatter plots align with statistical measures, providing a holistic understanding of data relationships.
+->Visual Patterns: Pair plot confirms the linear relationships observed in the correlation matrix and highlights the distribution of data points. Clear trends in scatter plots align with statistical measures, providing a holistic understanding of data relationships.
 
 
 
